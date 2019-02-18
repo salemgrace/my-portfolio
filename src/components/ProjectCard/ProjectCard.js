@@ -6,6 +6,7 @@ const ProjectCard = props => (
         <span onClick={() => props.link}>
             <div className="img-container">
                 <img className="img-fluid" alt={props.name} src={props.image} />
+                <h2>{props.name}</h2>
             </div>
         </span>
     </div>

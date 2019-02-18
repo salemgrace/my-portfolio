@@ -8,7 +8,7 @@ class App extends Component {
   state={
     projects
   };
-  
+
   render() {
     return (
       <div className="total-wrapper">
@@ -46,8 +46,8 @@ class App extends Component {
           </div>
         
           <div className="logo-holder">
-            <a href="https://www.linkedin.com/in/salem-bryant-36556865/"><img class="logo-size" src="assets/images/linked-in.png" /></a>
-            <a href="https://github.com/salemgrace"><img class="logo-size" src="assets/images/github.png" /></a>
+            <a href="https://www.linkedin.com/in/salem-bryant-36556865/"><img class="logo-size" src="assets/images/linked-in.png" alt="" /></a>
+            <a href="https://github.com/salemgrace"><img class="logo-size" src="assets/images/github.png" alt="" /></a>
           </div>
         </section>
         </div>
